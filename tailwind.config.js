@@ -14,8 +14,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        body: ["Red Hat Display", "sans-serif"],
-        title: ["Sulphur Point", "sans-serif"],
+        body: ["Red Hat Display"],
+        title: ["Sulphur Point"],
       },
       colors: {
         nigger: "#363636",

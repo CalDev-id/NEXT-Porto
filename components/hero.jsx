@@ -8,10 +8,10 @@ const Hero = () => {
             <Head>
                 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
             </Head>
-            <div className="hero xl:pt-20 pt-10 pb-20">
+            <div className="hero xl:pt-20 pt-10 pb-10">
                 <div className="hero-content flex-col lg:flex-row-reverse max-w-full xl:ml-24">
                     <Image
-                        src="/images/Frame.webp"
+                        src="/images/banner1.png"
                         alt="Websekai Logo"
                         className="md:w-1/2 ml-8 xl:ml-0 hidden xl:block"
                         width={2000}
@@ -27,7 +27,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <Image
-                        src="/images/Frame.webp"
+                        src="/images/banner1.png"
                         alt="Websekai Logo"
                         className="xl:w-1/2 ml-8 xl:ml-0 block xl:hidden"
                         width={2000}
