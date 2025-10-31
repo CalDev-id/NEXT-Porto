@@ -10,8 +10,8 @@ const Home = () => {
         <section className="bg-white text-nigger font-body font-semibold ">
             <Navbar />
             <Hero />
-            <Banner />
             <Carrer />
+            <Banner />
             <Works />
             <Footer />
         </section>
