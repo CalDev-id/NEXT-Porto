@@ -2,6 +2,8 @@ import Banner from "../../components/banner";
 import Hero from "../../components/hero";
 import Navbar from "../../components/navbar";
 import Works from "../../components/works";
+import Footer from "../../components/footer";
+import Carrer from "../../components/carrer";
 
 const Home = () => {
     return (
@@ -9,7 +11,9 @@ const Home = () => {
             <Navbar />
             <Hero />
             <Banner />
+            <Carrer />
             <Works />
+            <Footer />
         </section>
     )
 }
