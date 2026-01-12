@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="hero-content flex-col lg:flex-row-reverse max-w-full xl:ml-24">
           <div className="md:w-1/2 hidden xl:flex justify-center items-center ">
             <Image
-              src="/images/me_crop.jpg"
+              src="/images/my_photo.png"
               alt="Websekai Logo"
               className="rounded-xl"
               width={500}
@@ -55,7 +55,8 @@ const Hero = () => {
             </div>
           </div>
           <Image
-            src="/images/me_crop.jpg"
+            // src="/images/me_crop.jpg"
+            src="/images/my_photo.png"
             alt="Websekai Logo"
             className="xl:w-1/2 block xl:hidden rounded-xl mt-10"
             width={1000}

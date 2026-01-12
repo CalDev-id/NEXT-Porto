@@ -56,6 +56,7 @@ import Navbar from "../../components/navbar";
 import Works from "../../components/works";
 import Footer from "../../components/footer";
 import Carrer from "../../components/carrer";
+import Skills from "../../components/skills";
 
 const Home = () => {
     return (
@@ -64,6 +65,7 @@ const Home = () => {
             <Hero />
             <Carrer />
             <Banner />
+            <Skills />
             <Works />
             <Footer />
         </section>
