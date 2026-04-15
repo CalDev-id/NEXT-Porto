@@ -1,10 +1,16 @@
 
 export const metadata = {
-  title: "Heical Chandra Syahputra – AI Engineer & Mobile Developer Portfolio",
+  title: "CalDev Portfolio",
   description:
-    "Portfolio resmi Heical Chandra Syahputra, AI Engineer Intern di Telkom Indonesia dan iOS Developer lulusan Apple Developer Academy. Berpengalaman membangun 10+ aplikasi mobile (Swift, Kotlin, Flutter), riset IEEE, dan machine learning.",
+    "CalDev adalah portfolio resmi Heical Chandra Syahputra, juga dicari sebagai Heical Chandra, Heical, atau Ical Dev. Menampilkan karya AI engineer, iOS developer, mobile developer, dan software engineer.",
   keywords: [
+    "CalDev",
+    "Ical Dev",
+    "ical dev",
+    "Heical",
+    "Heical Chandra",
     "Heical Chandra Syahputra",
+    "heical chandra syahputra",
     "AI Engineer",
     "iOS Developer",
     "Mobile Developer",
@@ -19,57 +25,73 @@ export const metadata = {
   authors: [{ name: "Heical Chandra Syahputra" }],
   creator: "Heical Chandra Syahputra",
   publisher: "Heical Chandra Syahputra",
-
-  openGraph: {
-    title: "Heical Chandra Syahputra – AI Engineer & Mobile Developer",
-    description:
-      "Mobile & AI Engineer with experience in Swift, Kotlin, Flutter, and machine learning. Telkom Indonesia Intern, Apple Developer Academy graduate, IEEE-published researcher.",
-    url: "https://caldev.my.id",
-    siteName: "Heical Portfolio",
-    images: [
-      {
-        url: "https://caldev.my.id/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Portfolio Heical Chandra Syahputra"
-      }
-    ],
-    type: "website"
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Heical Chandra Syahputra – AI & Mobile Developer",
-    description:
-      "AI Engineer Intern at Telkom Indonesia and iOS Developer (Apple Developer Academy). Skilled in SwiftUI, Jetpack Compose, Flutter, ML, and RAG systems.",
-    images: ["https://caldev.my.id/og-image.png"]
-  },
-
   alternates: {
-    canonical: "https://caldev.my.id"
+    canonical: "/"
+  },
+};
+
+import Banner from "../components/banner";
+import Hero from "../components/hero";
+import Navbar from "../components/navbar";
+import Works from "../components/works";
+import Footer from "../components/footer";
+import Carrer from "../components/carrer";
+import Skills from "../components/skills";
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Heical Chandra Syahputra",
+  alternateName: ["CalDev", "Ical Dev", "Heical Chandra", "Heical"],
+  url: "https://caldev.my.id",
+  image: "https://caldev.my.id/images/me_2.webp",
+  jobTitle: "AI Engineer & Mobile Developer",
+  description:
+    "Heical Chandra Syahputra, also known as CalDev, Ical Dev, Heical Chandra, and Heical, is an AI engineer and mobile developer with experience in web apps, automation systems, machine learning, and iOS product development.",
+  sameAs: [
+    "https://www.linkedin.com/in/heical-chandra/",
+    "https://github.com/CalDev-id",
+    "https://www.instagram.com/ical.dev"
+  ],
+  alumniOf: [
+    {
+      "@type": "EducationalOrganization",
+      name: "Apple Developer Academy"
+    }
+  ],
+  knowsAbout: [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Mobile Development",
+    "iOS Development",
+    "Next.js",
+    "Python",
+    "Software Engineering"
+  ],
+  worksFor: {
+    "@type": "Organization",
+    name: "Telkom Indonesia"
   }
 };
 
-import Banner from "../../components/banner";
-import Hero from "../../components/hero";
-import Navbar from "../../components/navbar";
-import Works from "../../components/works";
-import Footer from "../../components/footer";
-import Carrer from "../../components/carrer";
-import Skills from "../../components/skills";
-
 const Home = () => {
-    return (
-        <section className="bg-white text-black font-body font-semibold ">
-            <Navbar />
-            <Hero />
-            <Carrer />
-            <Banner />
-            <Skills />
-            <Works />
-            <Footer />
-        </section>
-    )
-}
+  return (
+    <section className="bg-white text-black font-body font-semibold">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
+      <Navbar />
+      <main>
+        <Hero />
+        <Carrer />
+        <Banner />
+        <Skills />
+        <Works />
+      </main>
+      <Footer />
+    </section>
+  );
+};
 
 export default Home;

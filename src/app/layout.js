@@ -4,8 +4,69 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Caldev.",
-  description: "Heical Chandra Profile",
+  metadataBase: new URL("https://caldev.my.id"),
+  title: {
+    default: "CalDev | Heical Chandra Syahputra",
+    template: "%s | Heical Chandra Syahputra",
+  },
+  description:
+    "CalDev adalah portfolio resmi Heical Chandra Syahputra, juga dikenal sebagai Heical Chandra, Heical, dan Ical Dev. Berisi project AI engineer, mobile developer, dan software engineer.",
+  applicationName: "CalDev Portfolio",
+  keywords: [
+    "CalDev",
+    "Ical Dev",
+    "ical dev",
+    "Heical",
+    "Heical Chandra",
+    "Heical Chandra Syahputra",
+    "heical",
+    "heical chandra",
+    "heical chandra syahputra",
+    "AI Engineer Portfolio",
+    "Mobile Developer Portfolio",
+  ],
+  authors: [{ name: "Heical Chandra Syahputra", url: "https://caldev.my.id" }],
+  creator: "Heical Chandra Syahputra",
+  publisher: "Heical Chandra Syahputra",
+  category: "technology",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://caldev.my.id",
+    siteName: "CalDev Portfolio",
+    title: "CalDev | Heical Chandra Syahputra",
+    description:
+      "CalDev, portfolio of Heical Chandra Syahputra, also known as Heical Chandra and Ical Dev, featuring AI systems, mobile apps, and software engineering projects.",
+    images: [
+      {
+        url: "/images/me_2.webp",
+        width: 1200,
+        height: 630,
+        alt: "Heical Chandra Syahputra portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CalDev | Heical Chandra Syahputra",
+    description:
+      "CalDev portfolio by Heical Chandra Syahputra with AI engineer, mobile developer, and software project work.",
+    images: ["/images/me_2.webp"],
+  },
 };
 
 export default function RootLayout({ children }) {
