@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="xl:pt-8" aria-labelledby="hero-heading">
+    <section>
       <Head>
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex w-full justify-center xl:w-1/2 xl:items-center">
             <Image
               src="/images/me_2.webp"
-              alt="Portrait of Heical Chandra Syahputra, AI engineer and mobile developer"
+              alt="Portrait of Heical Chandra"
               className="mt-10 h-auto w-full max-w-xs rounded-xl sm:max-w-sm md:max-w-md xl:mt-0 xl:max-w-lg"
               width={2321}
               height={2594}
@@ -27,23 +27,23 @@ const Hero = () => {
 
           <div className="md:w-1/2 mx-4 xl:ml-0">
             <p className="text-[#284BFF] text-xl py-2">
-              Software Engineer | AI Engineer | Mobile Developer
+              Software | AI Engineer
             </p>
-            <h1 id="hero-heading" className="text-5xl font-bold font-title leading-tight">
-              Heical Chandra Syahputra
+            <h1 className="text-5xl font-bold font-title">
+              Hello! Im Heical Chandra
             </h1>
-            <p className="pt-3 text-lg font-semibold text-slate-800 md:mr-24">
-              AI Engineer and Mobile Developer portfolio from Indonesia focused on product engineering, intelligent systems, and scalable application development.
-            </p>
             <p className="pt-3 pb-5 text-[#0000008C] md:mr-40">
-              I build AI systems, iOS apps, and full-stack web products with Python, JavaScript, Next.js, Swift, Kotlin, and machine learning workflows. My work spans automation, RAG-based systems, internal enterprise tools, and production-ready mobile experiences.
+              Software Engineer with experience in backend, full-stack web,
+              automation, and AI/ML development. Builds scalable apps, AI
+              agents, and data-driven systems with Python, JavaScript, Next.js,
+              plus strong iOS product delivery background.
             </p>
-            <div className="flex flex-wrap items-center gap-5">
+            <div className="flex items-center gap-5">
               <Link
                 href="/projects"
                 className="btn mr-5 btn-primary bg-transparent hover:bg-transparent border-slate-800 rounded-full text-black text-xl px-6"
               >
-                View Projects
+                My Projects{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="13"
@@ -57,9 +57,7 @@ const Hero = () => {
                   ></path>
                 </svg>
               </Link>
-              <Link href="/career" className="text-sm font-semibold text-slate-600 underline-offset-4 hover:underline">
-                View Career Journey
-              </Link>
+              <a href="#">My Daily Article</a>
             </div>
           </div>
         </div>
