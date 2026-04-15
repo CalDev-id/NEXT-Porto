@@ -7,7 +7,7 @@ const Bcard = ({ src, title, desk, company, stack = [], href = "#" }) => {
       <Link href={href} className="relative block">
         <Image
           src={src}
-          alt={`${title} project by Heical Chandra Syahputra`}
+          alt={title}
           className="h-60 w-full object-cover object-top sm:h-64"
           width={2000}
           height={1200}
@@ -39,7 +39,6 @@ const Bcard = ({ src, title, desk, company, stack = [], href = "#" }) => {
         <div className="mt-6 flex items-center gap-4">
           <Link
             href={href}
-            aria-label={`View case study for ${title}`}
             className="inline-flex items-center gap-2 rounded-full border border-slate-900 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-slate-900 hover:text-white"
           >
             View Case Study

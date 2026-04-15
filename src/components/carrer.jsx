@@ -7,33 +7,27 @@ import { careerTimeline } from "../data/career";
 
 const Career = () => {
   return (
-    <section
+    <div
       id="career"
       className="flex flex-col items-center justify-center py-20 px-6 bg-gradient-to-r bg-white text-gray-800 transition-colors duration-500"
-      aria-labelledby="career-heading"
     >
+      {/* Title */}
     <div className="flex justify-center">
-              <motion.h2
-        id="career-heading"
+              <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-4xl md:text-5xl font-extrabold mb-12 bg-clip-text text-transparent bg-black"
+        className="text-4xl md:text-5xl font-extrabold mb-12 bg-clip-text text-transparent bg-black pb-10"
       >
         My Career Journey
-      </motion.h2>
-      <motion.p
+      </motion.h1>
+      <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl md:text-5xl font-extrabold mb-12 bg-clip-text ml-5 text-transparent bg-blue-600"
-        aria-hidden="true"
       >
         🚀
-      </motion.p>
+      </motion.h1>
     </div>
-      <p className="max-w-3xl text-center text-sm leading-relaxed text-slate-600 sm:text-base">
-        This career timeline highlights my path as a software engineer, machine learning practitioner, iOS developer, and AI engineer across product, research, and enterprise environments in Indonesia.
-      </p>
-
       <div className="relative w-full max-w-5xl">
         <ul className="flex flex-col lg:flex-row lg:justify-center lg:space-x-10 space-y-10 lg:space-y-0">
           {careerTimeline.map((item, index) => (
@@ -69,7 +63,7 @@ const Career = () => {
         <div className="mt-12 flex justify-center">
           <Link
             href="/career"
-            className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-900 hover:text-slate-900"
+            className="inline-flex items-center gap-2 rounded-full border mt-10 border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-900 hover:text-slate-900"
           >
             View Career Page
             <svg
@@ -88,7 +82,7 @@ const Career = () => {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

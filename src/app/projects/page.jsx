@@ -49,7 +49,8 @@ const ProjectsPage = () => {
           Projects
         </h1>
         <p className="mt-4 max-w-3xl text-sm text-slate-600 sm:text-base">
-          A searchable archive of software engineering, AI, mobile development, and product projects by Heical Chandra Syahputra. Each project page includes the problem context, technology stack, and implementation highlights.
+          A dedicated archive of software, AI, and product work with direct case
+          study access for each project.
         </p>
       </section>
       <section className="xl:mx-24 mx-6 sm:mx-10 pb-24">

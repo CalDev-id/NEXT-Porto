@@ -24,7 +24,8 @@ const Footer = () => {
             </div>
           </div>
           <p className="mt-4 max-w-md text-sm text-slate-400">
-            CalDev is the personal portfolio of Heical Chandra Syahputra, also known as Heical Chandra and Ical Dev, focused on software engineering, AI systems, and mobile product development.
+            Building digital products with strong UX, data-driven decisions, and
+            practical AI applications.
           </p>
           <p className="mt-6 text-xs text-slate-500">© {year} CalDev</p>
         </aside>

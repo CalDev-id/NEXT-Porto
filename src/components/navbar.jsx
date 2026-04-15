@@ -12,11 +12,7 @@ const Navbar = () => {
       <div className="w-full px-6 sm:px-8 xl:px-24">
         <div className="navbar bg-transparent py-5">
         <div className="flex-1">
-          <Link
-            href="/"
-            aria-label="CalDev home - Heical Chandra Syahputra portfolio"
-            className="btn btn-ghost font-black text-nigger text-2xl"
-          >
+          <Link href="/" className="btn btn-ghost font-black text-nigger text-2xl">
             CalDev<p className="font-black text-biru text-2xl">●</p>
           </Link>
         </div>

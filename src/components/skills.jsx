@@ -20,18 +20,19 @@ const Skills = () => {
   const marquee = [...stack, ...stack];
 
   return (
-    <section className="xl:mx-24 mx-6 sm:mx-10 pb-20" aria-labelledby="skills-heading">
+    <section className="xl:mx-24 mx-6 sm:mx-10 pb-20">
       <div className="rounded-[32px] border border-slate-200 bg-gradient-to-br from-slate-50 via-white to-slate-100 px-6 py-12 sm:px-10">
         <div className="flex flex-wrap items-center justify-between gap-6">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">
               Skills & Tooling
             </p>
-            <h2 id="skills-heading" className="mt-2 text-3xl font-bold font-title sm:text-4xl">
+            <h2 className="mt-2 text-3xl font-bold font-title sm:text-4xl">
               Tech Stack I Use
             </h2>
             <p className="mt-3 max-w-2xl text-sm text-slate-600 sm:text-base">
-              The technologies I use to build AI products, mobile apps, full-stack web applications, and production-ready software systems across Python, Swift, Kotlin, React, and Next.js workflows.
+              The tools I rely on to ship mobile, web, and AI products with a
+              clean, production-ready finish.
             </p>
           </div>
         </div>

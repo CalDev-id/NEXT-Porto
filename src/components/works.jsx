@@ -14,7 +14,8 @@ const Works = () => {
             Projects
           </h2>
           <p className="mt-3 max-w-2xl text-sm text-slate-600 sm:text-base">
-            A curated software engineering portfolio featuring AI systems, mobile app development, full-stack web products, and enterprise solutions built for real delivery and measurable impact.
+            A curated set of product, AI, and design-driven projects that show
+            end-to-end execution, thoughtful UX, and measurable impact.
           </p>
         </div>
         <Link
