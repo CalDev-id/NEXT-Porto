@@ -40,7 +40,7 @@ export const careerTimeline = [
   },
   {
     year: "2025",
-    role: "AI Engineer Intern",
+    role: "AI Engineer",
     company: "Telkom Indonesia",
     description:
       "Developed agentic AI systems and knowledge-intensive workflows to support human capital operations, including recruitment and promotion assessment.",
