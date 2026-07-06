@@ -10,8 +10,8 @@ export const metadata = {
     template: "%s | Heical Chandra Syahputra",
   },
   description:
-    "CalDev adalah portfolio resmi Heical Chandra Syahputra, juga dikenal sebagai Heical Chandra, Heical, dan Ical Dev. Berisi project AI engineer, mobile developer, dan software engineer.",
-  applicationName: "CalDev Portfolio",
+    "Portfolio resmi Heical Chandra Syahputra, juga dikenal sebagai CalDev, Heical Chandra, Heical, dan Ical Dev. Berisi project AI engineer, mobile developer, dan software engineer.",
+  applicationName: "Heical Chandra Profile",
   keywords: [
     "CalDev",
     "Ical Dev",
@@ -47,7 +47,7 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://caldev.my.id",
-    siteName: "CalDev Portfolio",
+    siteName: "Heical Chandra Portfolio",
     title: "CalDev | Heical Chandra Syahputra",
     description:
       "CalDev, portfolio of Heical Chandra Syahputra, also known as Heical Chandra and Ical Dev, featuring AI systems, mobile apps, and software engineering projects.",
@@ -62,9 +62,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CalDev | Heical Chandra Syahputra",
+    title: "Heical Chandra | Portfolio",
     description:
-      "CalDev portfolio by Heical Chandra Syahputra with AI engineer, mobile developer, and software project work.",
+      "Heical Chandra portfolio by Heical Chandra Syahputra with AI engineer, mobile developer, and software project work.",
     images: ["/images/me_2.webp"],
   },
 };

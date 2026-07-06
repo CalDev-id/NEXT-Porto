@@ -1,8 +1,8 @@
 
 export const metadata = {
-  title: "CalDev Portfolio",
+  title: "Heical Chandra Portfolio",
   description:
-    "CalDev adalah portfolio resmi Heical Chandra Syahputra, juga dicari sebagai Heical Chandra, Heical, atau Ical Dev. Menampilkan karya AI engineer, iOS developer, mobile developer, dan software engineer.",
+    "Portfolio resmi Heical Chandra Syahputra, juga dicari sebagai Caldev, Heical Chandra, Heical, atau Ical Dev. Menampilkan karya AI engineer, iOS developer, mobile developer, dan software engineer.",
   keywords: [
     "CalDev",
     "Ical Dev",
